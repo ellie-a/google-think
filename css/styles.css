@@ -1,4 +1,4 @@
-
+/*
 *:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
@@ -54,24 +54,30 @@
     width: 45vw;
   }
 
-}
+}*/
 
 @media only screen and (max-width: 415px){
 
-  .big {
-    background-color: lightblue;
+  .sections:first-of-type {
     height: 50vh;
-    margin-bottom: 5%;
+    position: relative;
+    margin: 0;
+  }
+  .background {
+    height: 100%;
+  }
+  .background img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 
-  .small1 {
+  .sections:nth-of-type(2) {
     background-color: pink;
     height: 25vh;
-    margin-bottom: 5%;
   }
-  .small2 {
+  .sections:nth-of-type(3) {
     background-color: red;
-    height: 25vh;
-
   }
 }
