@@ -58,6 +58,14 @@
 
 @media only screen and (max-width: 415px){
 
+  .sections {
+    overflow: hidden;
+  }
+
+  .sections:hover {
+    cursor: pointer;
+  }
+
   .sections:first-of-type {
     height: 50vh;
     position: relative;
@@ -73,11 +81,28 @@
     object-fit: cover;
   }
 
+
+#info-one {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1.5vh;
+  width: 65vw;
+  height: 18vh;
+  padding: 16px;
+  margin-left:5vw;
+  margin-right: auto;
+  background-color: rgb(38,50,56);
+  color: white;
+}
+
   .sections:nth-of-type(2) {
     background-color: pink;
     height: 25vh;
+    margin: 0;
   }
   .sections:nth-of-type(3) {
     background-color: red;
+    height: 25vh;
   }
 }
