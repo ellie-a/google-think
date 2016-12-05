@@ -1,0 +1,77 @@
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+@media only screen and (min-width: 801px) {
+  .big {
+    background-color: lightblue;
+    float: left;
+    height: 100vh;
+    width: 70vw;
+  }
+
+  .small1 {
+    background-color: pink;
+    float: right;
+    height: 50vh;
+    width: 25vw;
+    border-bottom: 5px solid white;
+}
+
+  .small2 {
+    background-color: red;
+    float: right;
+    width: 25vw;
+    height: 50vh;
+    border-top: 5px solid white;
+
+  }
+}
+
+
+@media only screen and (min-width: 416px) and (max-width: 800px){
+
+  .big {
+    background-color: lightblue;
+    height: 50vh;
+    margin-bottom: 3vh;
+  }
+
+
+  .small1 {
+    background-color: pink;
+    height: 50vh;
+    float: left;
+    width: 45vw;
+  }
+
+  .small2 {
+    background-color: red;
+    height: 50vh;
+    float: right;
+    width: 45vw;
+  }
+
+}
+
+@media only screen and (max-width: 415px){
+
+  .big {
+    background-color: lightblue;
+    height: 50vh;
+    margin-bottom: 5%;
+  }
+
+  .small1 {
+    background-color: pink;
+    height: 25vh;
+    margin-bottom: 5%;
+  }
+  .small2 {
+    background-color: red;
+    height: 25vh;
+
+  }
+}
