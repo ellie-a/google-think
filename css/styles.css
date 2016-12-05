@@ -86,50 +86,82 @@
     object-fit: cover;
   }
 
-.comment {
-  display: none;
-}
-#info-one {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 1.5vh;
-  width: 60vw;
-  height: 15vh;
-  padding: 16px;
-  margin-left:5vw;
-  margin-right: auto;
-  background-color: rgb(38,50,56);
-  color: white;
-}
+  .comment {
+    display: none;
+  }
+  #info-one {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1.5vh;
+    width: 60vw;
+    height: 15vh;
+    padding: 16px;
+    margin-left:5vw;
+    margin-right: auto;
+    background-color: rgb(38,50,56);
+    color: white;
+  }
 
-#info-one h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
-  font-weight: 300;
-  line-height: 4vh;
-  margin: 0;
-}
+  #info-one h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 4vh;
+    margin: 0;
+  }
 
-.links {
-  font-family: 'Roboto', sans-serif;
-  color: rgba(200, 200, 200, 0.9);
-  padding: 0;
-  margin: 0;
-  margin-top: 8px;
-  font-size: 0.82em;
-  font-weight: 300;
-  letter-spacing: 0.42px;
-}
+  .links {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(200, 200, 200, 0.9);
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    font-size: 0.82em;
+    font-weight: 300;
+    letter-spacing: 0.42px;
+  }
 
-.sections:nth-of-type(2) {
-  background-color: pink;
-  height: 25vh;
-  margin: 0;
-}
+  .sections:nth-of-type(2) {
+    background-color: rgb(38, 64, 147);
+    height: 25vh;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
 
-.sections:nth-of-type(3) {
-  background-color: red;
-  height: 25vh;
-}
+  .sections:nth-of-type(2) img {
+    position: absolute;
+    width: 23vh;
+    height: 25vh;
+    top: 51.25vh;
+    padding: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-right: 15px;
+    float: left;
+  }
+
+  .content {
+    margin-left: 45%;
+    width: 50%;
+    color: white;
+  }
+
+  #info-two h3 {
+    font-size: 1.07em;
+    font-weight: 300;
+    line-height: 4vh;
+    letter-spacing: .5px;
+  }
+  .content p {
+    padding: 0;
+    margin-top: -3.5%;
+  }
+
+  .sections:nth-of-type(3) {
+    background-color: red;
+    height: 25vh;
+    margin: 0;
+  }
 }
