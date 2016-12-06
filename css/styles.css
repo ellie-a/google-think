@@ -125,7 +125,7 @@
   letter-spacing: .5px;
 }
 
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 600px){
 
   .sections:first-of-type {
     height: 50vh;
@@ -164,10 +164,19 @@
     min-height: 1024px;
   }
 
+  .content {
+    margin-top: 200px;
+  }
+
   .sections:nth-of-type(3) {
     width: 50%;
     float: left;
     min-height: 1024px;
+  }
+
+  .sections:nth-of-type(3) img {
+    width: 49.2vw;
+    top: 51vh;
   }
 }
 
